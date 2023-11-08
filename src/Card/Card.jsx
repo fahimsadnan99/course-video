@@ -1,6 +1,7 @@
 import React from "react";
 import Img from "../assets/x.webp";
 import { Player } from "video-react";
+import 'video-react/dist/video-react.css'; 
 const Card = ({ id, title, url }) => {
   return (
     <div className="border-b-2 py-5 ">
