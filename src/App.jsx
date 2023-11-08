@@ -17,7 +17,7 @@ const topic = [
 
 const App = () => {
   return (
-    <div className="sm:mx-3 mx-5">
+    <div className="sm:mx-3 mx-5 bg-slate-400/20">
       <div className="grid grid-cols-1 responsive mx-auto ">
         {topic.map((item) => (
           <Card key={item.id} title={item?.name} id={item?.id} url={item?.url} />
