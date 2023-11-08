@@ -6,7 +6,7 @@ const Card = ({ id, title, url }) => {
   return (
     <div className="border-b-2 py-5 ">
       <div>
-        <p className="my-4 text-xl font-semibold">
+        <p className="my-4 text-lg font-semibold">
           Class - {id} : {title}
         </p>
       </div>
