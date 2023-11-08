@@ -1,7 +1,7 @@
 import React from "react";
 import Img from "../assets/x.webp";
 import { Player } from "video-react";
-const Card = ({ id, title }) => {
+const Card = ({ id, title ,url}) => {
   return (
     <div className="border-b-2 py-5 ">
       <div>
@@ -11,7 +11,7 @@ const Card = ({ id, title }) => {
       </div>
 
       <Player>
-        <source src="https://res.cloudinary.com/ddp2rhi4c/video/upload/v1699203954/dszguodtosad7xotir6z.mp4" />
+        <source src={url} />
       </Player>
     </div>
   );
